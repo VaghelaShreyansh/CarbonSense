@@ -1,0 +1,33 @@
+# CarbonSense ESG Platform - Requirements
+# Compatible with Python 3.9+
+
+# Core Application Framework
+streamlit>=1.28.0,<2.0.0
+
+# Data Processing & Analysis
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+
+# Mock Data Generation for Prototyping
+Faker>=19.0.0,<20.0.0
+
+# Visualization
+plotly>=5.15.0,<6.0.0
+
+# Excel Report Generation
+openpyxl>=3.1.0,<4.0.0
+
+# Date/Time Utilities
+python-dateutil>=2.8.0
+
+# Optional: For production PI System integration (uncomment when ready)
+# PIconnect>=1.0.0
+# OSIsoft-PI-AF-SDK>=1.0.0
+
+# Optional: For enhanced security & audit trails
+# cryptography>=41.0.0
+# hashlib (stdlib)
+
+# Development & Debugging (optional)
+# pytest>=7.0.0
+# black>=23.0.0
